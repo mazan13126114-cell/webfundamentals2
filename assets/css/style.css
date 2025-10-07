@@ -61,7 +61,7 @@ header p {
 /* Tab Content */
 .tab-content {
   display: none;
-  background: #cbdcf5;  /* slightly darker than pure white */
+  background: #dbdee3;  /* slightly darker than pure white */
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
