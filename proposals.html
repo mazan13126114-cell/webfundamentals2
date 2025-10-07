@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Proposals - Mazan Ali</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>WEB FUNDAMENTALS PROJECT PROPOSAL</h1>
+  <header>
+    <h1>Web Fundamentals Project Proposals</h1>
+    <p>By Mazan Ali — Vue.js | Express.js | Automation | Database Integration</p>
+  </header>
+
+  <main>
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-button active" data-tab="autolink">🚗 AutoLink</button>
+      <button class="tab-button" data-tab="lawconnect">⚖️ LawConnect</button>
+    </div>
+
+    <!-- Tab Contents -->
+    <div class="tab-content" id="autolink">
+      <h2>🚗 AutoLink — Smart Car Dealership Management System</h2>
+      <p class="one-liner">A digital platform for dealerships to manage car inventory, test drives, and customer requests efficiently.</p>
+
+      <h3>Problem & Target Audience</h3>
+      <p>
+        Many small and mid-sized car dealerships still rely on manual spreadsheets and outdated CRM systems.
+        <strong>AutoLink</strong> targets these dealerships by offering a modern, cloud-based management system
+        that connects sales staff, inventory, and customers seamlessly in one place.
+      </p>
+
+      <h3>Core Features (MVP)</h3>
+      <ul>
+        <li>User authentication (Admin and Customer roles)</li>
+        <li>Car catalog with filtering and search</li>
+        <li>Test drive & order request forms with validation</li>
+        <li>Admin dashboard with CRUD for cars and requests</li>
+        <li>Automated email + Google Calendar integration via n8n</li>
+        <li>Database management for Users, Cars, and Requests</li>
+        <li>Responsive, modern UI built with Vue.js & Tailwind</li>
+      </ul>
+    </div>
+
+    <div class="tab-content" id="lawconnect">
+      <h2>⚖️ LawConnect — Digital Case & Client Management Platform</h2>
+      <p class="one-liner">A secure web app for law firms to manage clients, cases, and legal documents with automated updates.</p>
+
+      <h3>Problem & Target Audience</h3>
+      <p>
+        Many small law firms struggle to keep track of clients and cases using paper files or basic Excel sheets.
+        <strong>LawConnect</strong> offers a secure, cloud-based system designed for lawyers and clients to collaborate,
+        track progress, and communicate effortlessly in real time.
+      </p>
+
+      <h3>Core Features (MVP)</h3>
+      <ul>
+        <li>User authentication (Client and Lawyer roles)</li>
+        <li>Case request form with document upload and validation</li>
+        <li>Admin dashboard for case assignment and updates (CRUD)</li>
+        <li>Secure messaging between client and lawyer</li>
+        <li>Automated email notifications on case status updates</li>
+        <li>Database management for Users, Cases, and Messages</li>
+        <li>Clean, responsive UI using Vue.js & Tailwind</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Mazan Ali | Thomas More | Data Science, Protection and Security</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
