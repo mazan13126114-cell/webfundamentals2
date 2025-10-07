@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Default: show AutoLink
   showTab("autolink");
 
   tabButtons.forEach(button => {

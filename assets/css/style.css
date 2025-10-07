@@ -7,8 +7,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background:  #e5e7eb; /* slightly darker than pure light gray */
-  color: #374151;      /* darker gray for text */
+  background:  #e5e7eb; 
+  color: #374151;      
   line-height: 1.6;
   padding: 20px;
 }
@@ -21,11 +21,11 @@ header {
 
 header h1 {
   font-size: 2.2rem;
-  color: #111827; /* slightly darker than before */
+  color: #111827; 
 }
 
 header p {
-  color: #4b5563; /* medium gray for subtitle */
+  color: #4b5563; 
   font-size: 0.95rem;
   margin-top: 8px;
 }
@@ -39,7 +39,7 @@ header p {
 }
 
 .tab-button {
-  background: #d1d5db;  /* a bit darker gray for buttons */
+  background: #d1d5db;  
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -49,45 +49,45 @@ header p {
 }
 
 .tab-button:hover {
-  background: #3b82f6; /* bright blue hover */
+  background: #3b82f6; 
   color: white;
 }
 
 .tab-button.active {
-  background: #2563eb; /* darker blue for active */
+  background: #2563eb; 
   color: white;
 }
 
 /* Tab Content */
 .tab-content {
   display: none;
-  background: #dbdee3;  /* slightly darker than pure white */
+  background: #dbdee3;  
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .tab-content h2 {
-  color: #1e40af; /* deep blue for headings */
+  color: #1e40af; 
   font-size: 1.6rem;
   margin-bottom: 10px;
 }
 
 .tab-content .one-liner {
   font-style: italic;
-  color: #6b7280; /* gray-blue for subtitle */
+  color: #6b7280; 
   margin-bottom: 15px;
 }
 
 .tab-content h3 {
   margin-top: 20px;
-  color: #b91c1c; /* warm red for section headers */
+  color: #b91c1c; 
   font-size: 1.2rem;
 }
 
 .tab-content p {
   margin-top: 10px;
-  color: #374151; /* dark gray text */
+  color: #374151; 
 }
 
 .tab-content ul {
@@ -97,13 +97,13 @@ header p {
 
 .tab-content li {
   margin-bottom: 6px;
-  color: #111827; /* slightly darker list items */
+  color: #111827; 
 }
 
 /* Footer */
 footer {
   text-align: center;
   margin-top: 30px;
-  color: #6b7280; /* subtle gray for footer */
+  color: #6b7280; 
   font-size: 0.9rem;
 }
